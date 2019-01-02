@@ -1,0 +1,60 @@
+.chairBack{
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: black
+}
+
+.leftArm{
+    display: inline-block;
+    height: 50px;
+    width:25px;
+    background-color: red;
+    top:50px;
+    transform: rotateX(40deg)
+}
+
+.rightArm{
+    display: inline-block;
+    height: 50px;
+    width:25px;
+    background-color: red;
+    top: 50px;
+    left:100px;
+    transform: rotateX(40deg)
+
+}
+
+.chairSeat{
+    position: relative;
+    height:100px;
+    width:75px;
+    background-color: orange;
+    transform: rotateX(60deg);
+    left: 40px;
+    top:-25px;
+    transform: skew()
+}
+
+.chairStand{
+    position:relative;
+    height:100px;
+    width:25px;
+    background-color: red;
+    left: 65px;
+    top:-45px;
+    z-index: -1;
+}
+
+.chairBase{
+    position:relative;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: black;
+    transform: rotateX(60deg);
+    left:26px;
+    top:-95px;
+    z-index: -2;
+
+}
