@@ -1,3 +1,7 @@
+body {
+    background-color: #CABFB1;
+}
+
 .chairBack{
 display: inline-block;
 height: 100px;
@@ -57,4 +61,38 @@ background-color: black
     top:-95px;
     z-index: -2;
 
+}
+
+.title{
+    font-style: italic;
+    font-family: courier;
+    font-variant: unset;
+    font-weight: 200;
+    color: #3B3024;
+    text-shadow: -1px 0 white, 0 3px black, 1px 0 black, 0 4px black;
+    font-size: 60px;
+    letter-spacing: -2px;
+    transform: skewY(-5deg);
+    text-align: center;
+}
+.hairTitle{
+    /* font-size: 30px; */
+    margin-top: -10px;
+}
+.gypseyTitle{
+    font-size: 50px;
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+}
+
+.chair{
+    margin: auto;
+    width: 50%;
 }
