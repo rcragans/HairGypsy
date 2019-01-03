@@ -1,12 +1,66 @@
 body {
-    background-color: #CABFB1;
+    background-image: url("images/brickWall.png");
+    background-repeat: repeat;
+    /* background-color: #CABFB1; */
+}
+
+.container{
+    background-image: url("images/oldDoor.png");
+    /* background-color: #CABFB1; */
+    margin: auto;
+    height: 100vh;
+    width: 90%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.title{
+background-color: burlywood;
+margin: auto;
+font-style: italic;
+font-family: courier;
+font-variant: unset;
+font-weight: 200;
+color: #3B3024;
+text-shadow: -1px 0 white, 0 3px black, 1px 0 black, 0 4px black;
+font-size: 55px;
+letter-spacing: -4px;
+text-align: center;
+width: 90%;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+margin-bottom: 20px;
+}
+.hairTitle{
+    /* font-size: 60px; */
+    margin-top: -10px;
+    letter-spacing: 25px;
+    font-variant: small-caps;
+}
+.gypsyTitle{
+    font-size: 50px;
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+.chairContainer{
+background-color: black;    
+margin: auto;
+width: 55%;
+height: 60vh;
+border: 5px solid black;
+padding: 5px;
+text-align: center;
+z-index: 10;
+
 }
 
 .chairBack{
 display: inline-block;
 height: 100px;
 width: 100px;
-background-color: black
+background-color: red;
 }
 
 .leftArm{
@@ -30,69 +84,44 @@ background-color: black
 }
 
 .chairSeat{
+    display: inline-block;
     position: relative;
     height:100px;
     width:75px;
-    background-color: orange;
+    background-color: blue;
     transform: rotateX(60deg);
-    left: 40px;
-    top:-25px;
-    transform: skew()
+    /* left: 40px;
+    top:-25px; */
 }
 
 .chairStand{
+    display: inline-block;
     position:relative;
     height:100px;
     width:25px;
-    background-color: red;
-    left: 65px;
-    top:-45px;
-    z-index: -1;
+    background-color: white;
+    text-align: center;
+    /* left: 65px;
+    top:-45px; */
+    /* z-index: -1; */
 }
 
 .chairBase{
+    display: inline-block;
     position:relative;
     height:100px;
     width:100px;
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
     transform: rotateX(60deg);
-    left:26px;
-    top:-95px;
-    z-index: -2;
+    /* left:26px;
+    top:95px; */
+    /* z-index: ; */
 
-}
+}  
 
-.title{
-    font-style: italic;
-    font-family: courier;
-    font-variant: unset;
-    font-weight: 200;
-    color: #3B3024;
-    text-shadow: -1px 0 white, 0 3px black, 1px 0 black, 0 4px black;
-    font-size: 60px;
-    letter-spacing: -2px;
-    transform: skewY(-5deg);
-    text-align: center;
-}
-.hairTitle{
-    /* font-size: 30px; */
-    margin-top: -10px;
-}
-.gypsyTitle{
-    font-size: 50px;
-    margin-top: -100px;
-    margin-bottom: 40px;
-}
-
-.container{
-    margin: auto;
-    width: 90%;
-    border: 3px solid whitesmoke;
-    padding: 10px;
-}
-
-.chair{
-    margin: auto;
-    width: 50%;
+.homePageButton{
+    border-style: solid;
+    border-width: 3px;
+    border-color: yellow;
 }
