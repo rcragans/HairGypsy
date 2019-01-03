@@ -26,29 +26,29 @@ font-size: 55px;
 letter-spacing: -4px;
 text-align: center;
 width: 90%;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 .hairTitle{
     /* font-size: 60px; */
-    margin-top: -10px;
-    letter-spacing: 25px;
+    margin-top: 10px;
+    letter-spacing: 5px;
     font-variant: small-caps;
 }
 .gypsyTitle{
     font-size: 50px;
     margin-top: -100px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .chairContainer{
-background-color: black;    
+background-color: black;
+padding: 10px;
+border: 5px solid black;    
 margin: auto;
 width: 55%;
 height: 60vh;
-border: 5px solid black;
-padding: 5px;
 text-align: center;
-z-index: 10;
+/* z-index: 10; */
 border-radius: 10%;
 
 }
