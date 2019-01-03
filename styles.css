@@ -4,7 +4,7 @@ body {
 
 .container{
     /* background-color: #CABFB1; */
-    background-color: cornsilk;
+    background-color: beige;
     margin: auto;
     height: 100vh;
     width: 90%;
@@ -14,7 +14,7 @@ body {
 }
 
 .title{
-/* background-color: red; */
+/* background-color: black; */
 margin: auto;
 font-style: italic;
 font-family: courier;
@@ -28,6 +28,14 @@ text-align: center;
 width: 90%;
 margin-bottom: 10px;
 }
+.theTitle{
+    color: white;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+}
 .hairTitle{
     /* font-size: 60px; */
     margin-top: 10px;
@@ -38,87 +46,31 @@ margin-bottom: 10px;
     font-size: 50px;
     margin-top: -100px;
     margin-bottom: 10px;
+    color: black;
 }
 
 .chairContainer{
-background-color: black;
-padding: 10px;
+/* background-color: black; */
+padding: 5px;
 border: 5px solid black;    
 margin: auto;
-width: 55%;
-height: 60vh;
+width: 50%;
 text-align: center;
-/* z-index: 10; */
-border-radius: 10%;
-
 }
-
-.chairBack{
-display: inline-block;
-height: 100px;
-width: 100px;
-background-color: red;
-}
-
-.leftArm{
-    display: inline-block;
-    height: 50px;
-    width:25px;
-    background-color: red;
-    top:50px;
-    transform: rotateX(40deg)
-}
-
-.rightArm{
-    display: inline-block;
-    height: 50px;
-    width:25px;
-    background-color: red;
-    top: 50px;
-    left:100px;
-    transform: rotateX(40deg)
-
-}
-
-.chairSeat{
-    display: inline-block;
-    position: relative;
-    height:100px;
-    width:75px;
-    background-color: blue;
-    transform: rotateX(60deg);
-    /* left: 40px;
-    top:-25px; */
-}
-
-.chairStand{
-    display: inline-block;
-    position:relative;
-    height:100px;
-    width:25px;
-    background-color: white;
-    text-align: center;
-    /* left: 65px;
-    top:-45px; */
-    /* z-index: -1; */
-}
-
-.chairBase{
-    display: inline-block;
-    position:relative;
-    height:100px;
-    width:100px;
-    border-radius: 50%;
-    background-color: white;
-    transform: rotateX(60deg);
-    /* left:26px;
-    top:95px; */
-    /* z-index: ; */
-
-}  
 
 .homePageButton{
     border-style: solid;
     border-width: 3px;
     border-color: yellow;
+    border-radius: 40%;
+    display: none;
+}
+
+.profile-photo{
+    border-radius: 80%;
+    width: 80%;
+    padding: 5px;
+    border: 5px solid black;    
+    margin: auto;
+    text-align: center;
 }
