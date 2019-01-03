@@ -1,21 +1,20 @@
 body {
-    background-image: url("images/brickWall.png");
-    background-repeat: repeat;
-    /* background-color: #CABFB1; */
+    background-color: white;
 }
 
 .container{
-    background-image: url("images/oldDoor.png");
     /* background-color: #CABFB1; */
+    background-color: cornsilk;
     margin: auto;
     height: 100vh;
     width: 90%;
     border: 3px solid black;
     padding: 10px;
+    border-radius: 25%;
 }
 
 .title{
-background-color: burlywood;
+/* background-color: red; */
 margin: auto;
 font-style: italic;
 font-family: courier;
@@ -27,9 +26,6 @@ font-size: 55px;
 letter-spacing: -4px;
 text-align: center;
 width: 90%;
-/* border-style: solid; */
-/* border-width: 5px; */
-/* border-color: black; */
 margin-bottom: 20px;
 }
 .hairTitle{
@@ -53,6 +49,7 @@ border: 5px solid black;
 padding: 5px;
 text-align: center;
 z-index: 10;
+border-radius: 10%;
 
 }
 
