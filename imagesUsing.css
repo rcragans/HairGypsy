@@ -2,20 +2,20 @@
     background-color: blue;
 } */
 
-div {
+.scissorsDivs {
     width: 80%;
     height: 60px;
-    background-color: yellow;
+    background-color: transparent;
     text-align: center;
     position: relative;
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
     border-width: 5px;
 }
 
 .scissorsClosedContainer{
-    width: 100%;
-    background-color: white;
+    width: 80%;
+    background-color: transparent;
     border: none;
     text-align: center;
     transform: skew(30deg);
@@ -28,7 +28,9 @@ div {
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: white;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 5px;
     }
     .line{
         height: 10px;
@@ -49,7 +51,7 @@ div {
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: white;
+        background-color: transparent;
     }
     .line2{
         height: 10px;
@@ -88,8 +90,8 @@ div {
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: white;
-        border-color: white;
+        background-color: transparent;
+        border-color: transparent;
         border-left: 160px solid silver;
         transform: translate(200px, -130px);
     }
@@ -98,15 +100,15 @@ div {
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: white;
-        border-color: white;
+        background-color: transparent;
+        border-color: transparent;
         border-left: 160px solid silver;
         transform: translate(200px, -130px);
     }
 
 .scissorsOpenContainer{
     width: 100%;
-    background-color: white;
+    background-color: transparent;
     border: none;
     text-align: center;
     transform: skewX(30deg);
@@ -117,7 +119,7 @@ div {
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: white;
+        background-color: transparent;
         transform: translate(30px,-30px);
     }
     .lline{
@@ -139,7 +141,7 @@ div {
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: white;
+        background-color: transparent;
         transform: translate(30px,30px);
     }
     .lline2{
@@ -179,8 +181,8 @@ div {
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: white;
-        border-color: white;
+        background-color: transparent;
+        border-color: transparent;
         border-left: 160px solid silver;
         transform: matrix(1, -.5, 0, 1, 200, -170);
     }
@@ -189,8 +191,8 @@ div {
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: white;
-        border-color: white;
+        background-color: transparent;
+        border-color: transparent;
         border-left: 160px solid silver;
         transform: matrix(1, .5, 0, 1, 200, -90);
     }

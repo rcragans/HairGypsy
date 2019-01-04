@@ -69,7 +69,7 @@ text-align: center;
     border-width: 3px;
     border-color: yellow;
     border-radius: 40%;
-    display: none;
+    /* display: none; */
     font-size: 20px;
 }
 
@@ -184,5 +184,9 @@ text-align: center;
     border-top-color: black;
     border-top-style: dashed;
     color: beige;
-    height: 130px;
+    height: 150px;
+}
+
+.buttonz {
+
 }
