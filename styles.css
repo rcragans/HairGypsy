@@ -203,3 +203,43 @@ text-align: center;
     border-
     height: 110px;
 }
+
+.bottomDesign div{
+    height: 40px;
+    width: 70%;
+    background-color: black;
+    margin: auto;
+    border: 7px solid red;
+    border-radius: 80%;
+    transform: translateY(20px);
+}
+
+#layerOne {
+    height: 40px;
+    width: 70%;
+    background-color: black;
+    margin: auto;
+    border: 7px solid red;
+    border-radius: 80%;
+
+}
+#layerTwo {
+    height: 40px;
+    width: 60%;
+    background-color: black;
+    margin: auto;
+    border: 6px solid red;
+    border-radius: 80%;
+}
+#layerThree {
+    height: 40px;
+    width: 50%;
+    background-color: black;
+    margin: auto;
+    border: 5px solid red;
+    border-radius: 80%;
+    -webkit-animation: glowYellow 50000ms infinite;
+    -moz-animation: glowYellow 50000ms infinite;
+    -o-animation: glowYellow 50000ms infinite;
+    animation: glowYellow 50000ms infinite;
+}
