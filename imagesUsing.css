@@ -1,0 +1,95 @@
+/* body{
+    background-color: blue;
+} */
+
+.scissors{
+
+}
+    .circle{
+        background-color: white;
+        color: white;
+        border-style: solid;
+        border-color: silver;
+        border-width: 5px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-top: 23px;
+    }
+    .circle2{
+        background-color: white;
+        color: white;
+        border-style: solid;
+        border-color: silver;
+        border-width: 5px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-top: 6px;
+    }
+    .line{
+        letter-spacing: -5px;
+        color: darkgrey;
+        margin-left: 23px;
+    }
+    .line2{
+        letter-spacing: -5px;
+        color: darkgrey;
+        margin-left: 23px;
+    }
+    .longLine{
+        letter-spacing: -5px;
+        color: red;
+        margin-left: 57px;
+        transform:translateY(-25px);
+    }
+    .longLine2{
+        letter-spacing: -5px;
+        color: red;
+        margin-left: 57px;
+    }
+    .box{
+        background-color: silver;
+        color: silver;
+        border-style: solid;
+        border-color: silver;
+        border-width: 1px;
+        width: 10px;
+        text-align: center;
+        /* margin: 5px; */
+        margin-top: -5px;
+        margin-left: 90px;
+    }
+    .triangle{
+        width: 40px;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-left: 100px solid silver;
+        border-bottom: 5px solid transparent;
+        color: white;
+    }
+    .triangle2{
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-left: 100px solid silver;
+        border-bottom: 5px solid transparent;
+        color: white;
+    }
+
+.blankBord{
+    background-color: white;
+    color: white;
+    border-color: white;
+    border-width: 10px;
+    height: 200px;
+    text-align: center;
+}    
+.buttonn{
+
+}
+
+.home{
+
+}
+
