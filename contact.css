@@ -8,6 +8,26 @@ body {
     background-color: white;
     width: 80%;
     margin: auto;
+    border: 12px double black;
+    transform: scale(0.8, 0.8)
+}
+    .locationTitle {
+
+    }
+    .ofTitle {
+
+    }
+    .theTitle {
+
+    }
+    .hairTitle {
+        font-size: 50px;
+}
+
+#map {
+    height: 400px;  
+    width: 100%;  
+    border: 10px solid none;
 }
 
 #businessCard {
@@ -15,7 +35,9 @@ body {
     background-color: white;
     width: 80%;
     margin: auto;
-    height: 20%
+    height: 20%;
+    border: 2px solid black;
+    transform: scale(0.90, 0.8)
 }
 
 .emailAddress {
