@@ -147,24 +147,6 @@ text-align: center;
     font-weight: bold;
     /* padding: 10px; */
 }
-
-  @-webkit-keyframes glowing {
-    0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-    50% { background-color: white; -webkit-box-shadow: 0 0 80px white; }
-    100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-  }
-  
-  @-moz-keyframes glowing {
-    0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-    50% { background-color: white; -moz-box-shadow: 0 0 40px white; }
-    100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-  }
-  
-  @-o-keyframes glowing {
-    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-    50% { background-color: white; box-shadow: 0 0 40px white; }
-    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  }
   
   @keyframes glowing {
     0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
@@ -172,27 +154,12 @@ text-align: center;
     100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
   }
 
-  @-webkit-keyframes glowYellow {
-    0% { background-color: black; -webkit-box-shadow: 0 0 3px black; }
-    50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
-    100% { background-color: black; -webkit-box-shadow: 0 0 3px black; }
-  }
-  
-  @-moz-keyframes glowYellow {
-    0% { background-color: black; -moz-box-shadow: 0 0 3px black; }
-    50% { background-color: yellow; -moz-box-shadow: 0 0 40px yellow; }
-    100% { background-color: black; -moz-box-shadow: 0 0 3px black; }
-  }
-  
-  @-o-keyframes glowYellow {
-    0% { background-color: black; box-shadow: 0 0 3px black; }
-    50% { background-color: yellow; box-shadow: 0 0 40px yellow; }
-    100% { background-color: black; box-shadow: 0 0 3px black; }
-  }
   
   @keyframes glowYellow {
     0% { background-color: black; box-shadow: 0 0 3px black; }
-    50% { background-color: yellow; box-shadow: 0 0 40px yellow; }
+    25% { background-color: yellow; box-shadow: 0 0 40px yellow; }
+    50% { background-color: white; box-shadow: 0 0 3px black; }
+    75% { background-color: yellow; box-shadow: 0 0 40px yellow; }
     100% { background-color: black; box-shadow: 0 0 3px black; }
   }
 
@@ -200,7 +167,6 @@ text-align: center;
     background-color: antiquewhite;
     border: 10px double black;
     color: transparent;
-    border-
     height: 110px;
 }
 
@@ -219,7 +185,7 @@ text-align: center;
     width: 70%;
     background-color: black;
     margin: auto;
-    border: 7px solid red;
+    border: 7px solid white;
     border-radius: 80%;
 
 }
@@ -228,7 +194,7 @@ text-align: center;
     width: 60%;
     background-color: black;
     margin: auto;
-    border: 6px solid red;
+    border: 6px solid white;
     border-radius: 80%;
 }
 #layerThree {
@@ -236,7 +202,7 @@ text-align: center;
     width: 50%;
     background-color: black;
     margin: auto;
-    border: 5px solid red;
+    border: 5px solid white;
     border-radius: 80%;
     -webkit-animation: glowYellow 50000ms infinite;
     -moz-animation: glowYellow 50000ms infinite;

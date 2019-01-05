@@ -1,11 +1,27 @@
 body {
     background-color: antiquewhite;
+    font-family: cursive;
 }
 
 .title {
     text-align: center;
+    background-color: white;
+    width: 80%;
+    margin: auto;
 }
 
-#contactInfo {
+#businessCard {
     text-align: center;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    height: 20%
+}
+
+.emailAddress {
+    font-family: courier;
+}
+
+.phoneNumber {
+    font-family: courier;
 }

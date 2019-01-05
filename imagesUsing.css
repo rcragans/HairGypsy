@@ -2,20 +2,20 @@
     background-color: blue;
 } */
 
-.scissorsDivs {
+div {
     width: 80%;
     height: 60px;
-    background-color: transparent;
+    background-color: yellow;
     text-align: center;
     position: relative;
     border-style: solid;
-    border-color: transparent;
+    border-color: black;
     border-width: 5px;
 }
 
 .scissorsClosedContainer{
-    width: 80%;
-    background-color: transparent;
+    width: 100%;
+    background-color: white;
     border: none;
     text-align: center;
     transform: skew(30deg);
@@ -28,9 +28,7 @@
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: transparent;
-        border-style: solid;
-        border-width: 5px;
+        background-color: white;
     }
     .line{
         height: 10px;
@@ -51,7 +49,7 @@
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: transparent;
+        background-color: white;
     }
     .line2{
         height: 10px;
@@ -90,8 +88,8 @@
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: transparent;
-        border-color: transparent;
+        background-color: white;
+        border-color: white;
         border-left: 160px solid silver;
         transform: translate(200px, -130px);
     }
@@ -100,15 +98,15 @@
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: transparent;
-        border-color: transparent;
+        background-color: white;
+        border-color: white;
         border-left: 160px solid silver;
         transform: translate(200px, -130px);
     }
 
 .scissorsOpenContainer{
     width: 100%;
-    background-color: transparent;
+    background-color: white;
     border: none;
     text-align: center;
     transform: skewX(30deg);
@@ -119,7 +117,7 @@
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: transparent;
+        background-color: white;
         transform: translate(30px,-30px);
     }
     .lline{
@@ -141,7 +139,7 @@
         width: 60px;
         height: 60px;
         border-color: silver;
-        background-color: transparent;
+        background-color: white;
         transform: translate(30px,30px);
     }
     .lline2{
@@ -181,8 +179,8 @@
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: transparent;
-        border-color: transparent;
+        background-color: white;
+        border-color: white;
         border-left: 160px solid silver;
         transform: matrix(1, -.5, 0, 1, 200, -170);
     }
@@ -191,8 +189,8 @@
         height: 0; 
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
-        background-color: transparent;
-        border-color: transparent;
+        background-color: white;
+        border-color: white;
         border-left: 160px solid silver;
         transform: matrix(1, .5, 0, 1, 200, -90);
     }
