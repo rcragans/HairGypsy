@@ -1,7 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+.galleryTitle {
+    text-align: center;
+    border: 10px double black;
+    font-size: 60px;
+    font-family: cursive;
+}
+
 .gallery{
-    width:80%;
-    text-align:center;
-    margin:auto
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid blue;
 }
 .slick-arrow{
     background-color: black
