@@ -1,3 +1,24 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.pricingTitle {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
 #sectionHeader{
-    
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td {
+    /* border: 2px solid black; */
 }
