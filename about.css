@@ -1,5 +1,53 @@
-.navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body {
+    background-color: antiquewhite;
+    font-family: georgia;
+}
+
+.navbar {
+    text-align: center;
+    margin: auto;
+    font-family: courier;
+    border-bottom: 3px double black;
+}
+
+.headers {
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+}
+
+.topContainer {
+
+}
+
+.midContainer {
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    margin-top: 50px;
+}
+
+.bottomContainer {
+
+}
+
+.productsSection {
+    margin: auto;
+    text-align: center;
+}
+.heather {
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+}
+
+.barberImage {
+    margin: auto;
+    text-align: center;
+    /* border: 10px solid black; */
+}
+
+.aboutMeLists {
+    margin: auto;
+    text-align: left;
 }
