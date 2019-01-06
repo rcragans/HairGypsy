@@ -93,9 +93,6 @@ text-align: center;
     border: 10px solid black;    
     margin: auto;
     text-align: center;
-    -webkit-animation: glowing 500ms infinite;
-    -moz-animation: glowing 2500ms infinite;
-    -o-animation: glowing 2500ms infinite;
     animation: glowing 3000ms infinite;
 }
 
@@ -118,9 +115,6 @@ text-align: center;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    -webkit-animation: glowing 2500ms infinite;
-    -moz-animation: glowing 2500ms infinite;
-    -o-animation: glowing 2500ms infinite;
     animation: glowing 2500ms infinite;
 }
 
@@ -170,7 +164,7 @@ text-align: center;
     height: 110px;
 }
 
-.bottomDesign div{
+.glowDesign div{
     height: 40px;
     width: 70%;
     background-color: black;
@@ -178,6 +172,7 @@ text-align: center;
     border: 7px solid red;
     border-radius: 80%;
     transform: translateY(20px);
+    transform: scale(.4, .2)
 }
 
 #layerOne {
@@ -204,8 +199,5 @@ text-align: center;
     margin: auto;
     border: 5px solid white;
     border-radius: 80%;
-    -webkit-animation: glowYellow 50000ms infinite;
-    -moz-animation: glowYellow 50000ms infinite;
-    -o-animation: glowYellow 50000ms infinite;
     animation: glowYellow 50000ms infinite;
 }
