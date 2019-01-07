@@ -12,7 +12,7 @@
     <title>Hair Gypsy Men's Haircuts Brookhaven, GA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="contact.css" />
-    <script src="contact.js"></script>
+    
 </head>
 <body>
     <div class="title">
@@ -23,25 +23,13 @@
         <img src="images/skewedScissorsOpen.png" width=80px height=80px></img>
     </div>
 
-    <div id="map"> </div>
-
-    <div class="map">
-        <script>
-            function initMap() {
-            var hairGypsy = {lat: 33.856500, lng: -84.344134};
-            var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 17, center: hairGypsy});
-            var marker = new google.maps.Marker({position: hairGypsy, map: map});
-            }
-        </script>
-        <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCegr0g-FBKeJBGSLGm2ozYmPPw4UVk65o&callback=initMap">
-        </script>
+    <div id="map">
+            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=salon%20lofts%20brookhaven&key=AIzaSyCegr0g-FBKeJBGSLGm2ozYmPPw4UVk65o" allowfullscreen></iframe>
     </div>
-
+    <div><button id="getDirections">Get Directions</button></div>
     <div class="container"></div>
         <div id="businessCard">
-            <!-- <button id="getDirections">Get Directions</button> -->
+            
             <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
             <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
             <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
@@ -62,5 +50,7 @@
             <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
