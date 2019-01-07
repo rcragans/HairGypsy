@@ -8,15 +8,18 @@ body {
     text-align: center;
     font-family: cursive;
     font-size: 50px;
+    border-left: 40px solid black;
+    border-right: 40px solid black;
 }
 
 #sectionHeader{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cursive, 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: blue;
+    color: black;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 10px solid black;
 }
 
 td {

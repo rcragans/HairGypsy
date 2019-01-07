@@ -1,0 +1,432 @@
+body {
+    background-color: grey;
+}
+
+
+
+
+.transparentDivider {
+    height: 15px;
+    background-color: transparent;
+}
+
+.alphabetContainer {
+
+}
+
+.letterContainer {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 8px solid white;
+    margin: auto;
+}
+
+.aLowerCase {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border: 2px solid white;
+    margin: auto;
+    transform: translate(0, 8%)
+}
+    .dashedSquare {
+        width: 60%;
+        height: 60%;
+        background-color:black;
+        border: 2px dashed white;
+        border-right: 2px solid white;
+        margin: auto;
+        transform: translate(0, 30%);
+        border-radius: 50%
+    }
+
+    .solidRectangle {
+        background-color: white;
+        width: 10%;
+        height: 70%;
+        transform: translate(800%, -65%)
+    }
+
+.aUpperCase {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.b {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.B {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.c {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.C {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.d {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.D {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.e {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.E {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.f {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.F {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.g {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.G {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.h {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.H {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.i {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.I {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.j {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.J {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.k {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.K {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.l {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.L {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.m {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.M {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.n {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.N {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.o {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.O {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.p {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.P {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.q {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.Q {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.r {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.R {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.s {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.S {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.t {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.T {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.u {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.U {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.v {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.V {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.w {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.W {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.x {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.X {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.y {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.Y {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
+.z {
+    width: 5%;
+    height: 100px;
+    background-color: black;
+    border: 10px solid white;
+    margin: auto;
+}
+
+.Z {
+    width: 5%;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    margin: auto;
+}
