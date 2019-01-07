@@ -11,19 +11,19 @@
     
 </head>
 <body>
-    <div class="topContainer">
-        <div class="navbar">
-            <a class="bookOnline" href="https://salonlofts.com/rachel_ritson/schedule">Book Now</a> 
-            <a href="index.html">Home</a>
-            <a href="pricing.html">Pricing|Services</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </div>
     <div class="container">
+        <div class="topContainer">
+            <div class="navbar">
+                <a class="bookOnline" href="https://salonlofts.com/rachel_ritson/schedule">Book Now</a> 
+                <a href="index.html">Home</a>
+                <a href="pricing.html">Pricing|Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            </div>
         <div class="header">
             <h1 class="galleryTitle">Photo Gallery</h1>
-        <div class="gallery">
+        <div class="gallery" data-slick='{"autoplay:true"}'>
             <img src="galleryImages/photo1.jpeg"/>
             <img src="galleryImages/photo2.jpeg"/>
             <img src="galleryImages/photo3.jpeg"/>
@@ -107,6 +107,29 @@
             <img src="galleryImages/photo81.jpeg"/>
         </div>
     </div>
+    <div class="container">
+        <div id="businessCard">
+            <!-- <button id="getDirections">Get Directions</button> -->
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
+            <p class="emailAddress">rachel.ritson@salonlofts.com</p>
+            <p class="phoneNumber">470-765-2447</p>
+            <a class="bookAppointment" href="https://salonlofts.com/rachel_ritson/schedule">Book Appointment Online</a>
+            <div class="whiteDivider">- - - - - - - - - -</div>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsOpen.png" width=30px height=30px></img>
+            <img src="images/skewedScissorsClosed.png" width=30px height=30px></img>
+        </div>
+    </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -114,7 +137,12 @@
 <script>
 $(document).ready(function(){
     $('.gallery').slick({
-
+        autoplay:true,
+        autoplaySpeed:2500,
+        fade:true,
+        infinite:true,
+        pauseOnHover:true,
+        initialSlide:1
     });
   });
 </script>
