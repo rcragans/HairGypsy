@@ -49,7 +49,7 @@ body {
     width: 80%;
     text-align: center;
     margin: auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 @media only screen and (min-width: 925px) {
