@@ -3,7 +3,6 @@ body {
 }
 
 .titleGypsy {    
-    height: 20%;
     width: 80%;
     background-color: antiquewhite;
     margin: auto;
@@ -11,17 +10,20 @@ body {
     padding: 25px;
 }
     .theTitle {    
-        font-size: 100%;
         font-family: cursive;
+        color: white;
+        text-shadow: 1px 1px black;
     }
     .hairTitle {    
         font-size: 200%;
         font-family: cursive;
+        text-shadow: 2px 2px white;
     }
     .gypsyTitle {    
         font-size: 300%;
         font-family: cursive;
         margin-top: -20px;
+        text-shadow: 2px 2px white;
     }
 
 .pageContainer {
@@ -104,33 +106,36 @@ text-align: center;
     font-weight: bold;
 }
   
-  @keyframes glowing {
-    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-    50% { background-color: white; box-shadow: 0 0 40px white; }
-    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  }
+@keyframes glowRed {
+0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+50% { background-color: white; box-shadow: 0 0 40px white; }
+100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
 
-  
-  @keyframes glowYellow {
-    0% { background-color: black; box-shadow: 0 0 3px black; }
-    25% { background-color: yellow; box-shadow: 0 0 40px yellow; }
-    50% { background-color: white; box-shadow: 0 0 3px black; }
-    75% { background-color: yellow; box-shadow: 0 0 40px yellow; }
-    100% { background-color: black; box-shadow: 0 0 3px black; }
-  }
+
+@keyframes glowYellow {
+0% { background-color: black; box-shadow: 0 0 3px black; }
+50% { background-color: yellow; box-shadow: 0 0 3px yellow; }
+100% { background-color: black; box-shadow: 0 0 3px black; }
+}
+
+@keyframes glowWhite {
+0% { background-color: black; box-shadow: 0 0 3px black; }
+50% { background-color: white; box-shadow: 0 0 3px white; }
+100% { background-color: black; box-shadow: 0 0 3px black; }
+}
+
+/* @keyframes moveDown {
+    from {top: 0px;
+    background-color: transparent;
+    } 
+    to {top: 200px;}
+    background-color: transparent;
+} */
+
+
 
 .cutOnEnter {
     background-color: antiquewhite;
     color: transparent;
-}
-
-.glowDesign div{
-    height: 40px;
-    width: 70%;
-    background-color: black;
-    margin: auto;
-    border: 7px solid red;
-    border-radius: 80%;
-    transform: translateY(20px);
-    transform: scale(.4, .2)
 }
