@@ -11,6 +11,7 @@ body {
         text-decoration: none;
         border-bottom: 5px dotted white;
         border-right: 1px solid black;
+        padding-right: 4px;
     }
     .homeNav {
         color:black;
@@ -20,14 +21,23 @@ body {
     .galleryNav {
         color: black;
         text-decoration: none;
-        border-bottom: 5px dotted white;
+        border-bottom: 5px dotted black;
         border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .aboutNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        padding-left: 4px;
         border-left: 1px solid black;
     }
     .pricingNav {
         color: black;
         text-decoration: none;
-        border-bottom: 5px dotted black;
+        border-bottom: 5px dotted white;
     }
 
 .title {
@@ -66,6 +76,13 @@ body {
     height: 400px;  
     width: 100%;  
     border: 10px solid none;
+}
+
+@media only screen and (min-width: 925px) {
+    #map {
+        width: 66%;
+        margin: auto;
+    }
 }
 
 #businessCard {
