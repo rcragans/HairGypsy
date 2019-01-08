@@ -11,7 +11,6 @@ body {
         text-decoration: none;
         border-bottom: 5px dotted white;
         border-right: 1px solid black;
-        border-left: 1px solid black;
     }
     .homeNav {
         color:black;
@@ -34,7 +33,6 @@ body {
         color: black;
         text-decoration: none;
         border-bottom: 5px dotted white;
-        border-right: 1px solid black;
         border-left: 1px solid black;
     }
 
@@ -75,7 +73,6 @@ body {
 
     border-left: 10px dotted black;
     border-right: 10px dotted black;
-    border-bottom: 3px solid black;
 }
 
 .gypsyLady {
