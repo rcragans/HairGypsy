@@ -2,15 +2,19 @@ body {
     background-color: black;
 }
 
-.container{
-    /* background-color: #CABFB1; */
-    background-color: white;
+.pageContainer {
+    background-color: antiquewhite;
     margin: auto;
     height: 100%;
     width: 80%;
-    border: 22px solid white;
+    border: 2px solid white;
     padding: 10px;
-    /* border-radius: 25%; */
+}
+
+@media only screen and (min-width: 925px) {
+    body {
+        height: 20%;
+    }
 }
 
 .titleImage {
@@ -21,51 +25,7 @@ body {
     background-color: white;
 }
 
-/* .title{
-background-color: black;
-margin: auto;
-font-style: italic;
-font-family: courier;
-font-variant: unset;
-font-weight: 200;
-color: #3B3024;
-text-shadow: -1px 0 white, 0 3px black, 1px 0 black, 0 4px black;
-font-size: 55px;
-letter-spacing: -4px;
-text-align: center;
-width: 90%;
-margin-bottom: 10px;
-}
-
-.theTitle{
-    color: white;
-    font-size: 80px;
-    margin-top: 10px;
-    margin-bottom: -50px;
-    letter-spacing: 10px;
-    font-variant: small-caps;
-    text-shadow: 5px 5px 5px black;
-
-}
-.hairTitle{
-    font-size: 60px;
-    margin-top: 10px;
-    letter-spacing: 5px;
-    font-variant: small-caps;
-    text-shadow: 5px 5px 5px black;
-}
-.gypsyTitle{
-    font-family: cursive;
-    font-size: 50px;
-    margin-top: -100px;
-    margin-bottom: 10px;
-    color: white;
-    text-shadow: 5px 5px 5px black;
-
-} */
-
 .chairContainer{
-/* background-color: black; */
 padding: 5px;
 border: 5px solid black;    
 margin: auto;
@@ -75,10 +35,8 @@ text-align: center;
 
 .homePageButton{
     border-bottom: 3px solid black;
-    /* border-radius: 20%; */
-    color: black;
-    background-color: white;
-    /* display: none; */
+    color: white;
+    background-color: black;
     font-size: 16px;
     margin: auto;
     cursor: pointer;
@@ -88,33 +46,15 @@ text-align: center;
     border-radius: 80%;
     width: 80%;
     padding: 5px;
-    border: 10px solid white;    
+    border: 3px solid black;    
     margin: auto;
     text-align: center;
-    /* animation: glowing 3000ms infinite; */
 }
 
 .introButtons{
     text-align: center;
     width: 100%;
-    /* border: 5px solid black; */
 }
-
-/* .enterButton {
-    background-color: yellow;
-    -webkit-border-radius: 20px;
-    border-radius: 30px;
-    border: solid;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Arial;
-    font-size: 20px;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    animation: glowing 2500ms infinite;
-} */
 
 .bookNowButton {
     font-size: 20px;
@@ -126,15 +66,12 @@ text-align: center;
 
 .buttonBook {
     font-size: 25px;
-    /* border-radius: 40%; */
-    border-bottom: 5px solid black;
-    background-color: white;
+    border: 5px dotted black;
+    background-color: transparent;
     color: black;
     cursor: pointer;
-    /* animation: glowYellow 2500ms infinite; */
     font-family: 'Courier New';
     font-weight: bold;
-    /* padding: 10px; */
 }
   
   @keyframes glowing {
@@ -153,10 +90,8 @@ text-align: center;
   }
 
 .cutOnEnter {
-    background-color: white;
-    /* border: 5px solid black; */
+    background-color: antiquewhite;
     color: transparent;
-    /* height: 110px; */
 }
 
 .glowDesign div{
@@ -168,31 +103,4 @@ text-align: center;
     border-radius: 80%;
     transform: translateY(20px);
     transform: scale(.4, .2)
-}
-
-#layerOne {
-    height: 40px;
-    width: 70%;
-    background-color: black;
-    margin: auto;
-    border: 7px solid white;
-    border-radius: 80%;
-
-}
-#layerTwo {
-    height: 40px;
-    width: 60%;
-    background-color: black;
-    margin: auto;
-    border: 6px solid white;
-    border-radius: 80%;
-}
-#layerThree {
-    height: 40px;
-    width: 50%;
-    background-color: black;
-    margin: auto;
-    border: 5px solid white;
-    border-radius: 80%;
-    animation: glowYellow 50000ms infinite;
 }
