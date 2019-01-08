@@ -77,7 +77,7 @@ body {
     border: 2px solid black;
     transform: scale(0.90, 0.8)
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 925px){
     .container{
         width:50%;
         margin:auto;
