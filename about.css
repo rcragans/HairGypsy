@@ -5,10 +5,38 @@ body {
 
 .navbar {
     text-align: center;
-    margin: auto;
-    font-family: courier;
-    border-bottom: 3px double black;
 }
+    .bookNowNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    .homeNav {
+        color:black;
+        text-decoration: none;
+        border-bottom: 5px dotted black;
+    }
+    .galleryNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    .pricingNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted black;
+    }
+    .contactNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
 
 .headers {
     text-align: center;
@@ -44,7 +72,14 @@ body {
 .barberImage {
     margin: auto;
     text-align: center;
-    /* border: 10px solid black; */
+
+    border-left: 10px dotted black;
+    border-right: 10px dotted black;
+    border-bottom: 3px solid black;
+}
+
+.gypsyLady {
+    
 }
 
 .aboutMeLists {
