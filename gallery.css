@@ -44,12 +44,21 @@ body {
     font-family: cursive;
 }
 
+
 .gallery{
     width: 80%;
     text-align: center;
     margin: auto;
     border: 2px solid blue;
 }
+
+@media only screen and (min-width: 925px) {
+    .gallery {
+        width: 50%;
+        height: 50%;
+    }
+}
+
 .slick-arrow{
     background-color: black
 }
