@@ -42,19 +42,13 @@ body {
     font-family: cursive;
 }
 
-.topContainer {
-
-}
-
 .midContainer {
     width: 60%;
     margin: auto;
     border: 5px solid black;
     margin-top: 50px;
-}
-
-.bottomContainer {
-
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .productsSection {
@@ -70,14 +64,10 @@ body {
 .barberImage {
     margin: auto;
     text-align: center;
-
     border-left: 10px dotted black;
     border-right: 10px dotted black;
 }
 
-.gypsyLady {
-    
-}
 
 .aboutMeLists {
     margin: auto;
@@ -86,4 +76,5 @@ body {
 
 li {
     list-style: none;
+    padding-bottom: 7px;
 }
