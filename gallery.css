@@ -1,6 +1,41 @@
 body {
     background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
 }
+.navbar {
+    text-align: center;
+}
+    .bookNowNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-right: 1px solid black;
+    }
+    .homeNav {
+        color:black;
+        text-decoration: none;
+        border-bottom: 5px dotted black;
+    }
+    .aboutNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    .galleryNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted black;
+        border-left: none;
+        border-right: none;
+    }
+    .contactNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-left: 1px solid black;
+    }
 
 .galleryTitle {
     text-align: center;
