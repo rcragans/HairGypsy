@@ -1,0 +1,79 @@
+body {
+    background-color: transparent;
+}
+
+.navigationBar {
+    text-align: center;
+}
+
+
+.navigationBar a{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.firstRow {
+    text-align: left;
+}
+    .homeNav {
+        color:black;
+        text-decoration: none;
+        border: 5px solid black;
+        border-bottom: 5px dotted black;
+        }
+            .topOfHouse {
+                text-align: left;
+                border: 3px solid black;
+                width: 10px;
+                font-weight: bold;
+                color: transparent;
+            }
+        .bookNowNav {
+            color: black;
+            text-decoration: none;
+            border: 5px dotted white;
+            position: relative;
+            animation: navBookNowAnimation 10s infinite;
+        }
+
+.secondRow {
+
+}
+    .aboutNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    .pricingNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    .galleryNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted black;
+        border-left: none;
+        border-right: none;
+    }
+    .contactNav {
+        color: black;
+        text-decoration: none;
+        border-bottom: 5px dotted white;
+        border-left: 1px solid black;
+    }
+
+@keyframes navBookNowAnimation {
+    0%   {top: 0px; left: 0px;}
+    50%  {top: 0px; left: 200px; color: white;}
+    100% {top: 0px; left: 0px;}
+  }
