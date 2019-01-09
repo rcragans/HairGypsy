@@ -19,6 +19,10 @@ body {
         font-size: 50px;
 }
 
+.scissorImages {
+    animation: scissorsAnimation .8s infinite;
+}
+
 .buttonContainer {
     text-align: center;
     padding-bottom: 30px;
@@ -53,3 +57,9 @@ body {
     75%  {top: 0px; left: -50px;}
     100% {top: 0px; left: 0px;}
   }
+
+  @keyframes scissorsAnimation {
+    0%   {;}
+    50%   {content:url(images/skewedScissorsClosed.png);}
+    100% {;}
+  }  
