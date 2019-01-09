@@ -17,28 +17,16 @@ body {
 }
 
 .firstRow {
-    text-align: left;
+    text-align: center;
+    padding-bottom: 5px;
 }
-    .homeNav {
-        color:black;
+    .bookNowNav {
+        color: black;
         text-decoration: none;
-        border: 5px solid black;
-        border-bottom: 5px dotted black;
-        }
-            .topOfHouse {
-                text-align: left;
-                border: 3px solid black;
-                width: 10px;
-                font-weight: bold;
-                color: transparent;
-            }
-        .bookNowNav {
-            color: black;
-            text-decoration: none;
-            border: 5px dotted white;
-            position: relative;
-            animation: navBookNowAnimation 10s infinite;
-        }
+        border: 5px dotted white;
+        position: relative;
+        animation: navBookNowAnimation 20s infinite;
+    }
 
 .secondRow {
 
@@ -74,6 +62,8 @@ body {
 
 @keyframes navBookNowAnimation {
     0%   {top: 0px; left: 0px;}
-    50%  {top: 0px; left: 200px; color: white;}
+    25%  {top: 0px; left: 95px; color: white;}
+    50%   {top: 0px; left: -95px; color: black;}
+    75%  {top: 0px; left: 95px; color: white;}
     100% {top: 0px; left: 0px;}
   }

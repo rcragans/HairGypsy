@@ -23,7 +23,7 @@ body {
     text-align: center;
     padding-bottom: 30px;
     position: relative;
-    animation: askDirectionsAnimation 4s infinite;
+    animation: askDirectionsAnimation 12s infinite;
 }
 
 #getDirections {
