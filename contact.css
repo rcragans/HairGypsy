@@ -51,37 +51,3 @@ body {
         margin: auto;
     }
 }
-
-#businessCard {
-    text-align: center;
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    height: 20%;
-    border: 2px solid black;
-    transform: scale(0.90, 0.8)
-}
-@media only screen and (min-width: 925px){
-    .container{
-        width:50%;
-        margin:auto;
-    }
-}
-
-.emailAddress {
-    font-family: courier;
-}
-
-.phoneNumber {
-    font-family: courier;
-}
-
-.bookAppointment {
-    color: black;
-    text-decoration: none;
-    border-bottom: 6px dotted black;
-}
-
-.whiteDivider {
-    color: white;
-}

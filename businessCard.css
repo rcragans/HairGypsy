@@ -1,0 +1,35 @@
+#businessCard {
+    text-align: center;
+    background-color: white;
+    width: 325px;
+    margin: auto;
+    height: 20%;
+    border: 2px solid black;
+    transform: scale(0.90, 0.8);
+    font-weight: bold;
+}
+
+.emailAddress {
+    font-family: courier;
+}
+
+.phoneNumber {
+    font-family: courier;
+}
+
+.bookAppointment {
+    color: black;
+    text-decoration: none;
+    border-bottom: 6px dotted black;
+    animation: bookBorder 3s infinite;
+}
+
+.whiteDivider {
+    color: white;
+}
+
+@keyframes bookBorder {
+    0%   {;}
+    50%  {border-bottom: 6px dotted white;}
+    100% {;}
+}
