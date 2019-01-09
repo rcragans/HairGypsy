@@ -27,6 +27,7 @@ body {
         border-right: 80px solid white;
         background-color: black;
         border-radius: 80%;
+        animation: gypsyTitleAnimation 8s infinite;
     }
     .gypsyTitle {    
         font-size: 300%;
@@ -38,6 +39,7 @@ body {
         border-radius: 80%;
         border-bottom-left-radius: 40%;
         border-top-right-radius: 40%;
+        animation: gypsyTitleAnimation 8s infinite;
     }
 
 .pageContainer {
@@ -162,4 +164,11 @@ text-align: center;
     50%  {top: 0px; left: 0px; background: transparent;}
     75%  {top: 0px; left: 50px; background: white;}
     100% {top: 0px; left: 0px; background: transparent;}
+  }
+@keyframes gypsyTitleAnimation {
+    0%   {;}
+    25%  {color: white;}
+    50%  {color: black;}
+    75%  {color: white;}
+    100% {;}
   }
