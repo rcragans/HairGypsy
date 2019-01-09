@@ -9,21 +9,35 @@ body {
     text-align: center;
     padding: 25px;
 }
-    .theTitle {    
-        font-family: cursive;
+
+.titleGypsy div{
+    font-family: cursive;
+}
+    .theTitle {
         color: white;
-        text-shadow: 1px 1px black;
+        text-shadow: 2px 2px black;
+        border-left: 60px solid black;
+        border-right: 120px solid black;
+        font-size: 150%;
     }
     .hairTitle {    
-        font-size: 200%;
-        font-family: cursive;
+        font-size: 270%;
         text-shadow: 2px 2px white;
+        border-left: 80px solid white;
+        border-right: 80px solid white;
+        background-color: black;
+        border-radius: 80%;
     }
     .gypsyTitle {    
         font-size: 300%;
-        font-family: cursive;
         margin-top: -20px;
-        text-shadow: 2px 2px white;
+        text-shadow: 2px 2px black;
+        border-left: 40px solid black;
+        border-right: 40px solid black;
+        background-color: white;
+        border-radius: 80%;
+        border-bottom-left-radius: 40%;
+        border-top-right-radius: 40%;
     }
 
 .pageContainer {
