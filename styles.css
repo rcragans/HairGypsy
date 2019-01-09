@@ -118,6 +118,8 @@ text-align: center;
     cursor: pointer;
     font-family: 'Courier New';
     font-weight: bold;
+    position: relative;
+    animation: bookButtonAnimation 8s infinite;
 }
   
 @keyframes glowRed {
@@ -139,17 +141,25 @@ text-align: center;
 100% { background-color: black; box-shadow: 0 0 3px black; }
 }
 
-/* @keyframes moveDown {
-    from {top: 0px;
-    background-color: transparent;
-    } 
-    to {top: 200px;}
-    background-color: transparent;
-} */
-
-
 
 .cutOnEnter {
     background-color: antiquewhite;
     color: transparent;
+    position: relative;
+    animation: homeButtonsAnimation 8s infinite;
 }
+
+@keyframes homeButtonsAnimation {
+    0%   {top: 0px; left: 0px; background: transparent;}
+    25%  {top: 0px; left: 50px; background: transparent;}
+    50%  {top: 0px; left: 0px; background: transparent;}
+    75%  {top: 0px; left: -50px; background: transparent;}
+    100% {top: 0px; left: 0px; background: transparent;}
+  }
+@keyframes bookButtonAnimation {
+    0%   {top: 0px; left: 0px; background: transparent;}
+    25%  {top: 0px; left: -50px; background: white;}
+    50%  {top: 0px; left: 0px; background: transparent;}
+    75%  {top: 0px; left: 50px; background: white;}
+    100% {top: 0px; left: 0px; background: transparent;}
+  }
