@@ -59,7 +59,7 @@ body {
   }
 
   @keyframes scissorsAnimation {
-    0%   {;}
+    0%   {}
     50%   {content:url(images/skewedScissorsClosed.png);}
-    100% {;}
+    100% {}
   }  
